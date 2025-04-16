@@ -825,7 +825,7 @@ white-space: nowrap;
     letter-spacing: 0.05rem;
     font-weight: 600;
     text-align: center;
-    color: #5a5959;
+    color: #f1f1f1;
     padding-top: 5px;
   }
 
@@ -878,7 +878,7 @@ white-space: nowrap;
   }
 
   .glare-style li a.ic-file{
-    background:#a1041f;
+    background: rgb(255 83 14);
   }
 
   .glare-style li a:hover:before {
@@ -962,7 +962,7 @@ white-space: nowrap;
     color: #fff;
   }
   .glare-style li a.ic-file:before {
-    background-color: #660616;
+    background-color: rgb(224, 66, 3);
   }
   
   .ic-youtube .fa-youtube {
@@ -972,6 +972,10 @@ white-space: nowrap;
 
 @media (max-width: 1199.98px) { 
     .glare-style li {
-        margin: 8px;
+        margin: 5px 8px 20px 10px;
+    }
+
+    .contact-box p {
+        letter-spacing: 0.05rem;
     }
 }
