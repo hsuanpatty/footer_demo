@@ -1185,6 +1185,14 @@ ul.footer-social li a img {
     font-size: 13.5px;
     letter-spacing: 0rem;
   }
+
+  .contact-box p span {
+    letter-spacing: 0;
+  }
+
+  .glare-style li {
+    margin: 10px 5px;
+  }
 }
 
 @media (max-width: 1199.98px) { 
