@@ -1180,22 +1180,31 @@ ul.footer-social li a img {
   ul#bottom-menu a {
     padding: 0;
   }
+
+  .footer-left p {
+    font-size: 13.5px;
+    letter-spacing: 0rem;
+  }
 }
 
 @media (max-width: 1199.98px) { 
   .foot-wrap {
     flex-wrap: wrap;
   }
-  .footer-left,
-  .footer-right {
-    width: 50%;
+  .footer-left {
+    width: 32%;
   }
+
+  .footer-right {
+    width: 62%;
+  }
+
   .footer-line {
    display: none;
   }
 
   .contact-box {
-    height: 50px;
+    height: 30px;
     padding-right: 20px;
   }
 
@@ -1217,17 +1226,32 @@ ul.footer-social li a img {
   }
 
   ul#bottom-menu a {
-    padding: 16px;
+    padding: 16px 0;
+  }
+  .footer-left p {
+    font-size: 12px;
+    letter-spacing: 0.01rem;
   }
 
+  .footer-right {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 991.98px) { 
+  .contact-box {
+    height: 50px;
+    width: 50%;
+  }
+
+  .contact-box p span {
+    letter-spacing: -0.05rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .foot-wrap {
-    width: 90%;
-  }
-  .contact-box:last-of-type {
-    display: none;
+    width: 95%;
   }
 }
 
@@ -1268,13 +1292,6 @@ ul.footer-social li a img {
   footer#footer {
     font-size: 0.875rem;
   }
-  .footer-left, .footer-right {
-    width: 100%;
-  }
-
-  .footer-left {
-    display: contents;
-  }
 
   .footer-left p.line-35 {
     line-height: 35px;
@@ -1296,6 +1313,7 @@ ul.footer-social li a img {
   }
 
   .footer-bottom .copyright {
+    font-size: 15px;
     padding: 3% 0;
   }
 
@@ -1304,23 +1322,33 @@ ul.footer-social li a img {
   }
 
   .footer-left p:nth-of-type(2) {
-    margin: 6px 10px 0;
+    margin: 0 10px 0 0;
+  }
+
+  .foot-wrap {
+    width: 100%;
+    padding: 10% 0 5%;
+  }
+
+  .footer-left h4 { 
+    font-size: 1rem;
+  }
+
+  .footer-left {
+    width: 33%;
   }
 
 }
 
 @media screen and (max-width: 576px) {
-  /* #gotop {
-    bottom: 80px;
-  } */
   .txt_box_btn_01 {
     bottom: 20px;
   }
+
   .foot-wrap {
-    width: 80%;
-    flex-direction: column;
-    padding: 10% 0 5%;
+    width: 73%;
   }
+
   .footer-left {
     width: 100%;
   }
@@ -1384,5 +1412,19 @@ ul.footer-social li a img {
     margin: 0;
   }
 
+  .glare-style .social-icons {
+    margin-top: 20px;
+  }
+
 }
 
+
+@media (max-width: 375.98px) { 
+  .foot-wrap {
+    width: 82%;
+  }
+
+  .glare-style .social-icons {
+    margin-top: 5px;
+  }
+}
