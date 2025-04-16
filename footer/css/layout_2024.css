@@ -1381,6 +1381,10 @@ ul.footer-social li a img {
     font-size: 0.875rem;
   }
 
+  .footer-bottom .copyright {
+    font-size: 10px;
+  }
+
   ul#bottom-menu {
     font-size: 0.8rem;;
   }
