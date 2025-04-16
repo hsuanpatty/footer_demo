@@ -698,6 +698,10 @@ white-space: nowrap;
         padding: 1px 0px 0px 5px;
     }
 
+    header#header{
+        background-color: #717070;
+    }
+
     .sub_menu_title span {
         padding: 7px 4px ;
     }
@@ -750,6 +754,9 @@ white-space: nowrap;
         padding-top: 100px !important;
     }
 
+    header#header{
+        height: 100px!important;
+    }
     .pushy-pt{
         padding-top: 20px;
     }
@@ -792,6 +799,10 @@ white-space: nowrap;
         margin-top: 3px!important;
         margin-right: 20px;
         margin-left: auto;
+    }
+
+    header#header {
+     background-color: transparent;
     }
 }
 
@@ -879,9 +890,7 @@ white-space: nowrap;
     transform: scale(0.8);
   }
   .glare-style li a:before {
-    content: "\f105";
-    display: block;
-    font-family: "Font Awesome 6 Pro";
+    content: "";
     position: absolute;
     top: 90%;
     left: -110%;
@@ -967,6 +976,6 @@ white-space: nowrap;
     }
 
     .contact-box p {
-        letter-spacing: 0.05rem;
+        letter-spacing: 0;
     }
 }
